@@ -18,7 +18,6 @@ import (
 	"path/filepath"
 	"strings"
 
-	/*"github.com/stacktic/dropbox"*/
 
 	knoxite "github.com/knoxite/knoxite/lib"
 )
