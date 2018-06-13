@@ -19,7 +19,6 @@ import (
 
 	_ "github.com/knoxite/knoxite/storage/amazons3"
 	_ "github.com/knoxite/knoxite/storage/backblaze"
-	_ "github.com/knoxite/knoxite/storage/dropbox"
 	_ "github.com/knoxite/knoxite/storage/ftp"
 	_ "github.com/knoxite/knoxite/storage/http"
 )
