@@ -21,7 +21,7 @@ import (
 
 	_ "github.com/knoxite/knoxite/storage/amazons3"
 	"github.com/knoxite/knoxite/storage/backblaze"
-	"github.com/knoxite/knoxite/storage/dropbox"
+	/*"github.com/knoxite/knoxite/storage/dropbox"*/
 	"github.com/knoxite/knoxite/storage/ftp"
 )
 
