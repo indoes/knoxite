@@ -1,3 +1,6 @@
+#### This is a fork of the original knoxite with a few edits in the storage code. I had to do this because the dropbox code repo it was looking for is no longer available and would cause it not to compile. So I removed that piece from the storage code and now it compiles without issues.
+
+
 knoxite
 =======
 
@@ -22,11 +25,11 @@ Make sure you have a working Go environment. Follow the [Go install instructions
 
 To install knoxite, simply run:
 
-    go get github.com/knoxite/knoxite
+    go get github.com/indoes/knoxite
 
 To compile it from source:
 
-    cd $GOPATH/src/github.com/knoxite/knoxite
+    cd $GOPATH/src/github.com/indoes/knoxite
     go get -u -v
     go build && go test -v
 
